@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace ProyectoFormativo
 {
-	public partial class Form1 : Form
+	public partial class FrmControl : Form
 	{
-		public Form1()
+		public FrmControl()
 		{
 			InitializeComponent();
 		}
+
 	}
 }
