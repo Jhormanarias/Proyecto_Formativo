@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFormativo
 {
-	public partial class FrmControl : Form
+	public partial class FrmControlAdmin : Form
 	{
-		public FrmControl()
+		public FrmControlAdmin()
 		{
 			InitializeComponent();
 		}
