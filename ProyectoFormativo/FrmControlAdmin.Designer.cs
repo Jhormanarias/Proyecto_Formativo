@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFormativo
 {
-	partial class FrmControl
+	partial class FrmControlAdmin
 	{
 		/// <summary>
 		/// Variable del diseñador necesaria.
