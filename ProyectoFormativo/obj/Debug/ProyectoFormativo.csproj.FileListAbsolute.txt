@@ -2,9 +2,9 @@ F:\ProyectoFormativo\ProyectoFormativo\bin\Debug\ProyectoFormativo.exe.config
 F:\ProyectoFormativo\ProyectoFormativo\bin\Debug\ProyectoFormativo.exe
 F:\ProyectoFormativo\ProyectoFormativo\bin\Debug\ProyectoFormativo.pdb
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.csproj.AssemblyReference.cache
-F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.FrmControl.resources
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.Properties.Resources.resources
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.csproj.GenerateResource.cache
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.csproj.CoreCompileInputs.cache
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.exe
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.pdb
+F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.FrmControlAdmin.resources
