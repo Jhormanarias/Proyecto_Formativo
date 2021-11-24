@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProyectoFormativo
+{
+	public partial class FrmControl : Form
+	{
+		public FrmControl()
+		{
+			InitializeComponent();
+		}
+
+		private void txt_Documento_U_Enter(object sender, EventArgs e)
+		{
+			if (txt_Documento_U.Text == "Documento")
+			{
+				txt_Documento_U.Text = "";
+				txt_Documento_U.ForeColor = Color.Silver;
+			}
+		}
+
+		private void txt_Documento_U_Leave(object sender, EventArgs e)
+		{
+			if (txt_Documento_U.Text == "")
+			{
+				txt_Documento_U.Text = "Documento";
+				txt_Documento_U.ForeColor = Color.Silver;
+			}
+		}
+
+		private void relog_Tick(object sender, EventArgs e)
+		{
+			lbl_hora.Text = DateTime.Now.ToString("hh:mm:ss tt");
+		}
+
+		private void txt_Documento_C_U_Enter(object sender, EventArgs e)
+		{
+			if (txt_Documento_U.Text == "Documento")
+			{
+				txt_Documento_C_U.Text = "";
+				txt_Documento_C_U.ForeColor = Color.Silver;
+			}
+		}
+
+		private void txt_Documento_C_U_Leave(object sender, EventArgs e)
+		{
+			if (txt_Documento_C_U.Text == "")
+			{
+				txt_Documento_C_U.Text = "Documento";
+				txt_Documento_C_U.ForeColor = Color.Silver;
+			}
+		}
+
+		private void txt_BuscarBein_C_U_Enter(object sender, EventArgs e)
+		{
+			if (txt_BuscarBein_C_U.Text == "ID Bien:")
+			{
+				txt_BuscarBein_C_U.Text = "";
+				txt_BuscarBein_C_U.ForeColor = Color.Silver;
+			}
+		}
+
+		private void txt_BuscarBein_C_U_Leave(object sender, EventArgs e)
+		{
+			if (txt_BuscarBein_C_U.Text == "")
+			{
+				txt_BuscarBein_C_U.Text = "ID Bien:";
+				txt_BuscarBein_C_U.ForeColor = Color.Silver;
+			}
+		}
+	}
+}
