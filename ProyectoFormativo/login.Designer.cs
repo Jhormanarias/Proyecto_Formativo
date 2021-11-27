@@ -83,7 +83,7 @@
 			this.BtnIngresar.Location = new System.Drawing.Point(316, 293);
 			this.BtnIngresar.Name = "BtnIngresar";
 			this.BtnIngresar.Size = new System.Drawing.Size(402, 40);
-			this.BtnIngresar.TabIndex = 7;
+			this.BtnIngresar.TabIndex = 3;
 			this.BtnIngresar.Text = "Ingresar";
 			this.BtnIngresar.UseVisualStyleBackColor = false;
 			// 
@@ -96,7 +96,7 @@
 			this.txtUsusario.Location = new System.Drawing.Point(319, 108);
 			this.txtUsusario.Name = "txtUsusario";
 			this.txtUsusario.Size = new System.Drawing.Size(404, 21);
-			this.txtUsusario.TabIndex = 8;
+			this.txtUsusario.TabIndex = 1;
 			this.txtUsusario.Text = "Usuario";
 			this.txtUsusario.Enter += new System.EventHandler(this.txtUsusario_Enter);
 			this.txtUsusario.Leave += new System.EventHandler(this.txtUsusario_Leave);
@@ -110,8 +110,9 @@
 			this.txtContrasena.Location = new System.Drawing.Point(317, 224);
 			this.txtContrasena.Name = "txtContrasena";
 			this.txtContrasena.Size = new System.Drawing.Size(404, 21);
-			this.txtContrasena.TabIndex = 9;
+			this.txtContrasena.TabIndex = 2;
 			this.txtContrasena.Text = "Contraseña";
+			this.txtContrasena.TextChanged += new System.EventHandler(this.txtContrasena_TextChanged);
 			this.txtContrasena.Enter += new System.EventHandler(this.txtContrasena_Enter);
 			this.txtContrasena.Leave += new System.EventHandler(this.txtContrasena_Leave);
 			// 
@@ -142,7 +143,7 @@
 			this.lineShape1.Name = "lineShape1";
 			this.lineShape1.X1 = 316;
 			this.lineShape1.X2 = 720;
-			this.lineShape1.Y1 = 133;
+			this.lineShape1.Y1 = 132;
 			this.lineShape1.Y2 = 132;
 			// 
 			// login
@@ -151,6 +152,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlText;
 			this.ClientSize = new System.Drawing.Size(815, 378);
+			this.ControlBox = false;
 			this.Controls.Add(this.txtContrasena);
 			this.Controls.Add(this.txtUsusario);
 			this.Controls.Add(this.BtnIngresar);
@@ -159,6 +161,7 @@
 			this.Controls.Add(this.shapeContainer1);
 			this.Name = "login";
 			this.Opacity = 0.9D;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "login";
 			this.panel1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
