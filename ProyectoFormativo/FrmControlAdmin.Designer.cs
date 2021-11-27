@@ -47,6 +47,7 @@ namespace ProyectoFormativo
 			// button1
 			// 
 			this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.button1.ForeColor = System.Drawing.SystemColors.Control;
 			this.button1.Location = new System.Drawing.Point(165, 212);
 			this.button1.Name = "button1";
