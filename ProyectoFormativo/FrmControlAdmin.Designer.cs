@@ -39,7 +39,6 @@ namespace ProyectoFormativo
 			this.txtEquipo = new System.Windows.Forms.TextBox();
 			this.txtDocumento = new System.Windows.Forms.TextBox();
 			this.txtIdEquipo = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
 			this.btnBuscar = new System.Windows.Forms.Button();
 			this.btnSalida = new System.Windows.Forms.Button();
 			this.DGVControl_U = new System.Windows.Forms.DataGridView();
@@ -50,9 +49,11 @@ namespace ProyectoFormativo
 			this.H_Ingreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.H_Salida = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Observaacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.gb_Registro_C_U = new System.Windows.Forms.GroupBox();
 			this.tc_Usuario.SuspendLayout();
 			this.Control.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.DGVControl_U)).BeginInit();
+			this.gb_Registro_C_U.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// btnIngreso
@@ -62,9 +63,9 @@ namespace ProyectoFormativo
 			this.btnIngreso.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
 			this.btnIngreso.FlatAppearance.BorderSize = 0;
 			this.btnIngreso.ForeColor = System.Drawing.SystemColors.HighlightText;
-			this.btnIngreso.Location = new System.Drawing.Point(402, 56);
+			this.btnIngreso.Location = new System.Drawing.Point(414, 19);
 			this.btnIngreso.Name = "btnIngreso";
-			this.btnIngreso.Size = new System.Drawing.Size(128, 73);
+			this.btnIngreso.Size = new System.Drawing.Size(104, 73);
 			this.btnIngreso.TabIndex = 0;
 			this.btnIngreso.Text = "Ingreso";
 			this.btnIngreso.UseVisualStyleBackColor = false;
@@ -115,15 +116,8 @@ namespace ProyectoFormativo
 			// Control
 			// 
 			this.Control.BackColor = System.Drawing.SystemColors.Control;
+			this.Control.Controls.Add(this.gb_Registro_C_U);
 			this.Control.Controls.Add(this.DGVControl_U);
-			this.Control.Controls.Add(this.btnSalida);
-			this.Control.Controls.Add(this.btnBuscar);
-			this.Control.Controls.Add(this.txtNombre);
-			this.Control.Controls.Add(this.txtEquipo);
-			this.Control.Controls.Add(this.txtDocumento);
-			this.Control.Controls.Add(this.txtIdEquipo);
-			this.Control.Controls.Add(this.label1);
-			this.Control.Controls.Add(this.btnIngreso);
 			this.Control.Location = new System.Drawing.Point(4, 22);
 			this.Control.Name = "Control";
 			this.Control.Padding = new System.Windows.Forms.Padding(3);
@@ -133,7 +127,7 @@ namespace ProyectoFormativo
 			// 
 			// txtNombre
 			// 
-			this.txtNombre.Location = new System.Drawing.Point(51, 96);
+			this.txtNombre.Location = new System.Drawing.Point(21, 62);
 			this.txtNombre.Name = "txtNombre";
 			this.txtNombre.Size = new System.Drawing.Size(100, 20);
 			this.txtNombre.TabIndex = 5;
@@ -142,7 +136,7 @@ namespace ProyectoFormativo
 			// 
 			// txtEquipo
 			// 
-			this.txtEquipo.Location = new System.Drawing.Point(179, 96);
+			this.txtEquipo.Location = new System.Drawing.Point(147, 62);
 			this.txtEquipo.Name = "txtEquipo";
 			this.txtEquipo.Size = new System.Drawing.Size(100, 20);
 			this.txtEquipo.TabIndex = 4;
@@ -151,7 +145,7 @@ namespace ProyectoFormativo
 			// 
 			// txtDocumento
 			// 
-			this.txtDocumento.Location = new System.Drawing.Point(179, 56);
+			this.txtDocumento.Location = new System.Drawing.Point(147, 23);
 			this.txtDocumento.Name = "txtDocumento";
 			this.txtDocumento.Size = new System.Drawing.Size(100, 20);
 			this.txtDocumento.TabIndex = 3;
@@ -160,25 +154,16 @@ namespace ProyectoFormativo
 			// 
 			// txtIdEquipo
 			// 
-			this.txtIdEquipo.Location = new System.Drawing.Point(51, 56);
+			this.txtIdEquipo.Location = new System.Drawing.Point(21, 24);
 			this.txtIdEquipo.Name = "txtIdEquipo";
 			this.txtIdEquipo.Size = new System.Drawing.Size(100, 20);
 			this.txtIdEquipo.TabIndex = 2;
 			this.txtIdEquipo.Text = "ID Equipo:";
 			this.txtIdEquipo.Enter += new System.EventHandler(this.txtIdEquipo_Enter);
 			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(48, 16);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(35, 13);
-			this.label1.TabIndex = 1;
-			this.label1.Text = "label1";
-			// 
 			// btnBuscar
 			// 
-			this.btnBuscar.Location = new System.Drawing.Point(305, 56);
+			this.btnBuscar.Location = new System.Drawing.Point(269, 19);
 			this.btnBuscar.Name = "btnBuscar";
 			this.btnBuscar.Size = new System.Drawing.Size(42, 29);
 			this.btnBuscar.TabIndex = 6;
@@ -192,9 +177,9 @@ namespace ProyectoFormativo
 			this.btnSalida.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
 			this.btnSalida.FlatAppearance.BorderSize = 0;
 			this.btnSalida.ForeColor = System.Drawing.SystemColors.HighlightText;
-			this.btnSalida.Location = new System.Drawing.Point(560, 56);
+			this.btnSalida.Location = new System.Drawing.Point(561, 19);
 			this.btnSalida.Name = "btnSalida";
-			this.btnSalida.Size = new System.Drawing.Size(128, 73);
+			this.btnSalida.Size = new System.Drawing.Size(107, 73);
 			this.btnSalida.TabIndex = 7;
 			this.btnSalida.Text = "Salida";
 			this.btnSalida.UseVisualStyleBackColor = false;
@@ -213,7 +198,7 @@ namespace ProyectoFormativo
             this.H_Ingreso,
             this.H_Salida,
             this.Observaacion});
-			this.DGVControl_U.Location = new System.Drawing.Point(3, 135);
+			this.DGVControl_U.Location = new System.Drawing.Point(2, 143);
 			this.DGVControl_U.Name = "DGVControl_U";
 			this.DGVControl_U.ReadOnly = true;
 			this.DGVControl_U.Size = new System.Drawing.Size(745, 147);
@@ -261,6 +246,22 @@ namespace ProyectoFormativo
 			this.Observaacion.Name = "Observaacion";
 			this.Observaacion.ReadOnly = true;
 			// 
+			// gb_Registro_C_U
+			// 
+			this.gb_Registro_C_U.Controls.Add(this.btnBuscar);
+			this.gb_Registro_C_U.Controls.Add(this.btnSalida);
+			this.gb_Registro_C_U.Controls.Add(this.btnIngreso);
+			this.gb_Registro_C_U.Controls.Add(this.txtEquipo);
+			this.gb_Registro_C_U.Controls.Add(this.txtNombre);
+			this.gb_Registro_C_U.Controls.Add(this.txtDocumento);
+			this.gb_Registro_C_U.Controls.Add(this.txtIdEquipo);
+			this.gb_Registro_C_U.Location = new System.Drawing.Point(3, 15);
+			this.gb_Registro_C_U.Name = "gb_Registro_C_U";
+			this.gb_Registro_C_U.Size = new System.Drawing.Size(744, 106);
+			this.gb_Registro_C_U.TabIndex = 10;
+			this.gb_Registro_C_U.TabStop = false;
+			this.gb_Registro_C_U.Text = "Registro";
+			// 
 			// FrmControlAdmin
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -273,8 +274,9 @@ namespace ProyectoFormativo
 			this.Load += new System.EventHandler(this.FrmControlAdmin_Load);
 			this.tc_Usuario.ResumeLayout(false);
 			this.Control.ResumeLayout(false);
-			this.Control.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.DGVControl_U)).EndInit();
+			this.gb_Registro_C_U.ResumeLayout(false);
+			this.gb_Registro_C_U.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -291,7 +293,6 @@ namespace ProyectoFormativo
 		private System.Windows.Forms.TextBox txtEquipo;
 		private System.Windows.Forms.TextBox txtDocumento;
 		private System.Windows.Forms.TextBox txtIdEquipo;
-		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button btnSalida;
 		private System.Windows.Forms.Button btnBuscar;
 		private System.Windows.Forms.DataGridView DGVControl_U;
@@ -302,6 +303,7 @@ namespace ProyectoFormativo
 		private System.Windows.Forms.DataGridViewTextBoxColumn H_Ingreso;
 		private System.Windows.Forms.DataGridViewTextBoxColumn H_Salida;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Observaacion;
+		private System.Windows.Forms.GroupBox gb_Registro_C_U;
 	}
 }
 

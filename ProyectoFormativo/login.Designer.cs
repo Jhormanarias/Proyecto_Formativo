@@ -74,9 +74,9 @@
 			this.label1.ForeColor = System.Drawing.Color.DimGray;
 			this.label1.Location = new System.Drawing.Point(464, 42);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(89, 34);
+			this.label1.Size = new System.Drawing.Size(103, 34);
 			this.label1.TabIndex = 6;
-			this.label1.Text = "Log In";
+			this.label1.Text = "Ingreso";
 			// 
 			// BtnIngresar
 			// 
