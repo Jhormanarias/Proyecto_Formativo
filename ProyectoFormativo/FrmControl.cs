@@ -75,5 +75,15 @@ namespace ProyectoFormativo
 				txt_BuscarBein_C_U.ForeColor = Color.Silver;
 			}
 		}
+
+		private void btn_salir_C_U_Click(object sender, EventArgs e)
+		{
+			DialogResult rpta = new DialogResult();
+			rpta = MessageBox.Show("¿Desea Salir?", "Advertencia!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			if (rpta == DialogResult.Yes)
+			{
+				Application.Exit();
+			}
+		}
 	}
 }

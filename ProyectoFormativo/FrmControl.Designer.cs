@@ -30,6 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.gb_Usuario = new System.Windows.Forms.GroupBox();
+			this.btn_salir_C_U = new System.Windows.Forms.Button();
 			this.gb_Registro_C_U = new System.Windows.Forms.GroupBox();
 			this.btn_Salida_U = new System.Windows.Forms.Button();
 			this.btn_Ingreso_U = new System.Windows.Forms.Button();
@@ -68,6 +69,7 @@
 			// 
 			// gb_Usuario
 			// 
+			this.gb_Usuario.Controls.Add(this.btn_salir_C_U);
 			this.gb_Usuario.Controls.Add(this.gb_Registro_C_U);
 			this.gb_Usuario.Controls.Add(this.btn_Filtar_C_U);
 			this.gb_Usuario.Controls.Add(this.DGVControl_U);
@@ -82,6 +84,16 @@
 			this.gb_Usuario.TabIndex = 4;
 			this.gb_Usuario.TabStop = false;
 			this.gb_Usuario.Text = "Usuario";
+			// 
+			// btn_salir_C_U
+			// 
+			this.btn_salir_C_U.Location = new System.Drawing.Point(689, 19);
+			this.btn_salir_C_U.Name = "btn_salir_C_U";
+			this.btn_salir_C_U.Size = new System.Drawing.Size(75, 23);
+			this.btn_salir_C_U.TabIndex = 10;
+			this.btn_salir_C_U.Text = "Salir";
+			this.btn_salir_C_U.UseVisualStyleBackColor = true;
+			this.btn_salir_C_U.Click += new System.EventHandler(this.btn_salir_C_U_Click);
 			// 
 			// gb_Registro_C_U
 			// 
@@ -342,7 +354,7 @@
 			this.lbl_horaSistem_U.Font = new System.Drawing.Font("MS Reference Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_horaSistem_U.Location = new System.Drawing.Point(6, 16);
 			this.lbl_horaSistem_U.Name = "lbl_horaSistem_U";
-			this.lbl_horaSistem_U.Size = new System.Drawing.Size(330, 44);
+			this.lbl_horaSistem_U.Size = new System.Drawing.Size(329, 44);
 			this.lbl_horaSistem_U.TabIndex = 0;
 			this.lbl_horaSistem_U.Text = "Hora del sistema:";
 			// 
@@ -369,7 +381,9 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.gb_Usuario);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Name = "FrmControl";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Control Entrada y Salida";
 			this.gb_Usuario.ResumeLayout(false);
 			this.gb_Usuario.PerformLayout();
@@ -415,5 +429,6 @@
 		private System.Windows.Forms.Button btn_Busrcar_R_U;
 		private System.Windows.Forms.Button btn_Salida_U;
 		private System.Windows.Forms.Button btn_Ingreso_U;
+		private System.Windows.Forms.Button btn_salir_C_U;
 	}
 }
