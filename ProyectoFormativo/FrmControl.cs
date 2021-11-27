@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,7 +38,7 @@ namespace ProyectoFormativo
 
 		private void relog_Tick(object sender, EventArgs e)
 		{
-			lbl_hora.Text = DateTime.Now.ToString("hh:mm:ss tt");
+			lbl_hora.Text = DateTime.Now.ToString("hh:mm:ss tt", CultureInfo.InvariantCulture);
 		}
 
 		private void txt_Documento_C_U_Enter(object sender, EventArgs e)
