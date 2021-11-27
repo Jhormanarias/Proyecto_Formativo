@@ -337,4 +337,41 @@
   <metadata name="lineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>404, 0</value>
   </metadata>
+  <metadata name="lineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>315, 248, 400, 0</value>
+  </metadata>
+  <metadata name="lineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>315, 248</value>
+  </metadata>
+  <metadata name="lineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>400, 0</value>
+  </metadata>
+  <metadata name="lineShape1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>316, 132, 404, 0</value>
+  </metadata>
+  <metadata name="lineShape1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>316, 132</value>
+  </metadata>
+  <metadata name="lineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>404, 0</value>
+  </metadata>
+  <data name="btnCerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADUSURBVFhH7ZZNCoMwFAZznSImdJEuC7W38CKes+YouihU
+        sP0kD0SkzYv5WTQDATXIjAomolAo/MJU1ckesnlez973LjzqujVSvnqlOnvJmbHR3dDoabjp1l7igSeH
+        3Cg1Y3AiIB/vlxkDEd5vAlIKcI1Yy5fxObdTfnAigssJl4hocuJbRHQ5sReRTE5sI5LKiXVEcjnIGpD1
+        E2zlOIc0ScSe3E7l/QcQ0SJc5ETwCI6cCBaB5biXcuLIiXXEoeUYGxJEcOQEIg5tSIisW7JC4Q8Q4g2r
+        q1I0xcNEkAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnMinimizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAXn0AAF59AFCcMjOAAAAB3RJ
+        TUUH5AkKCyI4oElgfgAAAHxJREFUaEPt08ENQGAQROGfRBEa4UoJynBx0awydMBM7NFxJcT7knedJaEA
+        AAAAAIAf6MfJNWpQc3Le9HZcS+ZhValF7epIzpve9o24msijqlWbunuAjLztG3E1kUdj/NMvUKtVPfUJ
+        rd11I64m87D65k8MAAAAAADepJQT6rzvOK5dy/gAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
