@@ -22,7 +22,7 @@ namespace ProyectoFormativo
 			if (txt_Documento_U.Text == "Documento")
 			{
 				txt_Documento_U.Text = "";
-				txt_Documento_U.ForeColor = Color.Silver;
+				txt_Documento_U.ForeColor = Color.Black;
 			}
 		}
 
@@ -45,7 +45,7 @@ namespace ProyectoFormativo
 			if (txt_Documento_U.Text == "Documento")
 			{
 				txt_Documento_C_U.Text = "";
-				txt_Documento_C_U.ForeColor = Color.Silver;
+				txt_Documento_C_U.ForeColor = Color.Black;
 			}
 		}
 
@@ -63,7 +63,7 @@ namespace ProyectoFormativo
 			if (txt_BuscarBein_C_U.Text == "ID Bien:")
 			{
 				txt_BuscarBein_C_U.Text = "";
-				txt_BuscarBein_C_U.ForeColor = Color.Silver;
+				txt_BuscarBein_C_U.ForeColor = Color.Black;
 			}
 		}
 
