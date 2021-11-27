@@ -159,6 +159,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.shapeContainer1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "login";
 			this.Opacity = 0.9D;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
