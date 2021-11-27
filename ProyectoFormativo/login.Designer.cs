@@ -38,8 +38,12 @@
 			this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
 			this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
 			this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+			this.btnCerrar = new System.Windows.Forms.PictureBox();
+			this.btnMinimizar = new System.Windows.Forms.PictureBox();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -49,8 +53,9 @@
 			this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
 			this.panel1.Location = new System.Drawing.Point(0, 0);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(256, 378);
+			this.panel1.Size = new System.Drawing.Size(256, 367);
 			this.panel1.TabIndex = 1;
+			this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
 			// 
 			// pictureBox1
 			// 
@@ -124,13 +129,14 @@
 			this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2,
             this.lineShape1});
-			this.shapeContainer1.Size = new System.Drawing.Size(815, 378);
+			this.shapeContainer1.Size = new System.Drawing.Size(814, 367);
 			this.shapeContainer1.TabIndex = 10;
 			this.shapeContainer1.TabStop = false;
 			// 
 			// lineShape2
 			// 
 			this.lineShape2.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lineShape2.Enabled = false;
 			this.lineShape2.Name = "lineShape2";
 			this.lineShape2.X1 = 315;
 			this.lineShape2.X2 = 715;
@@ -140,19 +146,42 @@
 			// lineShape1
 			// 
 			this.lineShape1.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lineShape1.Enabled = false;
 			this.lineShape1.Name = "lineShape1";
 			this.lineShape1.X1 = 316;
 			this.lineShape1.X2 = 720;
 			this.lineShape1.Y1 = 132;
 			this.lineShape1.Y2 = 132;
 			// 
+			// btnCerrar
+			// 
+			this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+			this.btnCerrar.Location = new System.Drawing.Point(782, 3);
+			this.btnCerrar.Name = "btnCerrar";
+			this.btnCerrar.Size = new System.Drawing.Size(30, 32);
+			this.btnCerrar.TabIndex = 11;
+			this.btnCerrar.TabStop = false;
+			this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+			// 
+			// btnMinimizar
+			// 
+			this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+			this.btnMinimizar.Location = new System.Drawing.Point(740, 0);
+			this.btnMinimizar.Name = "btnMinimizar";
+			this.btnMinimizar.Size = new System.Drawing.Size(36, 32);
+			this.btnMinimizar.TabIndex = 12;
+			this.btnMinimizar.TabStop = false;
+			this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+			// 
 			// login
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlText;
-			this.ClientSize = new System.Drawing.Size(815, 378);
+			this.ClientSize = new System.Drawing.Size(814, 367);
 			this.ControlBox = false;
+			this.Controls.Add(this.btnMinimizar);
+			this.Controls.Add(this.btnCerrar);
 			this.Controls.Add(this.txtContrasena);
 			this.Controls.Add(this.txtUsusario);
 			this.Controls.Add(this.BtnIngresar);
@@ -164,8 +193,11 @@
 			this.Opacity = 0.9D;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "login";
+			this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.login_MouseDown);
 			this.panel1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -182,5 +214,7 @@
 		private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
 		private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
 		private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+		private System.Windows.Forms.PictureBox btnCerrar;
+		private System.Windows.Forms.PictureBox btnMinimizar;
 	}
 }
