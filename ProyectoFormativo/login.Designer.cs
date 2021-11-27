@@ -143,7 +143,7 @@
 			this.lineShape1.Name = "lineShape1";
 			this.lineShape1.X1 = 316;
 			this.lineShape1.X2 = 720;
-			this.lineShape1.Y1 = 133;
+			this.lineShape1.Y1 = 132;
 			this.lineShape1.Y2 = 132;
 			// 
 			// login
