@@ -354,7 +354,7 @@
 			this.lbl_horaSistem_U.Font = new System.Drawing.Font("MS Reference Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_horaSistem_U.Location = new System.Drawing.Point(6, 16);
 			this.lbl_horaSistem_U.Name = "lbl_horaSistem_U";
-			this.lbl_horaSistem_U.Size = new System.Drawing.Size(329, 44);
+			this.lbl_horaSistem_U.Size = new System.Drawing.Size(330, 44);
 			this.lbl_horaSistem_U.TabIndex = 0;
 			this.lbl_horaSistem_U.Text = "Hora del sistema:";
 			// 

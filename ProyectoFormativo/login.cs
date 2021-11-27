@@ -41,6 +41,7 @@ namespace ProyectoFormativo
 			{
 				txtContrasena.Text = "Contraseña";
 				txtContrasena.ForeColor = Color.DimGray;
+				txtContrasena.UseSystemPasswordChar = false;
 			}
 		}
 
@@ -50,7 +51,13 @@ namespace ProyectoFormativo
 			{
 				txtContrasena.Text = "";
 				txtContrasena.ForeColor = Color.LightGray;
+				txtContrasena.UseSystemPasswordChar = true;
 			}
+		}
+
+		private void txtContrasena_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
