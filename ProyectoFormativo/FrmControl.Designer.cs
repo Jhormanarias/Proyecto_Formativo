@@ -385,7 +385,6 @@
 			this.Name = "FrmControl";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Control Entrada y Salida";
-			this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
 			this.gb_Usuario.ResumeLayout(false);
 			this.gb_Usuario.PerformLayout();
 			this.gb_Registro_C_U.ResumeLayout(false);
