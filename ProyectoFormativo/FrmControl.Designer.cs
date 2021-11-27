@@ -354,18 +354,18 @@
 			this.lbl_horaSistem_U.Font = new System.Drawing.Font("MS Reference Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_horaSistem_U.Location = new System.Drawing.Point(6, 16);
 			this.lbl_horaSistem_U.Name = "lbl_horaSistem_U";
-			this.lbl_horaSistem_U.Size = new System.Drawing.Size(330, 44);
+			this.lbl_horaSistem_U.Size = new System.Drawing.Size(329, 44);
 			this.lbl_horaSistem_U.TabIndex = 0;
 			this.lbl_horaSistem_U.Text = "Hora del sistema:";
 			// 
 			// lbl_hora
 			// 
 			this.lbl_hora.AutoSize = true;
-			this.lbl_hora.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_hora.Font = new System.Drawing.Font("DS-Digital", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_hora.ForeColor = System.Drawing.Color.DarkRed;
-			this.lbl_hora.Location = new System.Drawing.Point(559, 19);
+			this.lbl_hora.Location = new System.Drawing.Point(491, 13);
 			this.lbl_hora.Name = "lbl_hora";
-			this.lbl_hora.Size = new System.Drawing.Size(167, 40);
+			this.lbl_hora.Size = new System.Drawing.Size(186, 47);
 			this.lbl_hora.TabIndex = 1;
 			this.lbl_hora.Text = "00:00:00";
 			// 
