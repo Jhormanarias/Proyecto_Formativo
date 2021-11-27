@@ -29,7 +29,7 @@ namespace ProyectoFormativo
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.button1 = new System.Windows.Forms.Button();
+			this.btnIngreso = new System.Windows.Forms.Button();
 			this.tc_Usuario = new System.Windows.Forms.TabControl();
 			this.Usuarios = new System.Windows.Forms.TabPage();
 			this.Propietario = new System.Windows.Forms.TabPage();
@@ -40,22 +40,35 @@ namespace ProyectoFormativo
 			this.txtDocumento = new System.Windows.Forms.TextBox();
 			this.txtIdEquipo = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
+			this.btnBuscar = new System.Windows.Forms.Button();
+			this.btnSalida = new System.Windows.Forms.Button();
+			this.DGVControl_U = new System.Windows.Forms.DataGridView();
+			this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.T_Bien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.F_registro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.H_Ingreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.H_Salida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Observaacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.tc_Usuario.SuspendLayout();
 			this.Control.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.DGVControl_U)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// button1
+			// btnIngreso
 			// 
-			this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-			this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button1.ForeColor = System.Drawing.SystemColors.Control;
-			this.button1.Location = new System.Drawing.Point(165, 212);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(445, 73);
-			this.button1.TabIndex = 0;
-			this.button1.Text = "botoncito";
-			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.btnIngreso.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.btnIngreso.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnIngreso.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+			this.btnIngreso.FlatAppearance.BorderSize = 0;
+			this.btnIngreso.ForeColor = System.Drawing.SystemColors.HighlightText;
+			this.btnIngreso.Location = new System.Drawing.Point(402, 56);
+			this.btnIngreso.Name = "btnIngreso";
+			this.btnIngreso.Size = new System.Drawing.Size(128, 73);
+			this.btnIngreso.TabIndex = 0;
+			this.btnIngreso.Text = "Ingreso";
+			this.btnIngreso.UseVisualStyleBackColor = false;
+			this.btnIngreso.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// tc_Usuario
 			// 
@@ -63,57 +76,60 @@ namespace ProyectoFormativo
 			this.tc_Usuario.Controls.Add(this.Propietario);
 			this.tc_Usuario.Controls.Add(this.Equipo);
 			this.tc_Usuario.Controls.Add(this.Control);
-			this.tc_Usuario.Location = new System.Drawing.Point(30, 34);
+			this.tc_Usuario.Location = new System.Drawing.Point(21, 12);
 			this.tc_Usuario.Name = "tc_Usuario";
 			this.tc_Usuario.SelectedIndex = 0;
-			this.tc_Usuario.Size = new System.Drawing.Size(746, 389);
+			this.tc_Usuario.Size = new System.Drawing.Size(758, 413);
 			this.tc_Usuario.TabIndex = 1;
 			// 
 			// Usuarios
 			// 
+			this.Usuarios.BackColor = System.Drawing.SystemColors.Control;
 			this.Usuarios.Location = new System.Drawing.Point(4, 22);
 			this.Usuarios.Name = "Usuarios";
 			this.Usuarios.Padding = new System.Windows.Forms.Padding(3);
-			this.Usuarios.Size = new System.Drawing.Size(738, 363);
+			this.Usuarios.Size = new System.Drawing.Size(750, 387);
 			this.Usuarios.TabIndex = 0;
 			this.Usuarios.Text = "Usuarios";
-			this.Usuarios.UseVisualStyleBackColor = true;
 			// 
 			// Propietario
 			// 
+			this.Propietario.BackColor = System.Drawing.SystemColors.Control;
 			this.Propietario.Location = new System.Drawing.Point(4, 22);
 			this.Propietario.Name = "Propietario";
 			this.Propietario.Padding = new System.Windows.Forms.Padding(3);
-			this.Propietario.Size = new System.Drawing.Size(738, 363);
+			this.Propietario.Size = new System.Drawing.Size(750, 387);
 			this.Propietario.TabIndex = 1;
 			this.Propietario.Text = "Propietario";
-			this.Propietario.UseVisualStyleBackColor = true;
 			// 
 			// Equipo
 			// 
+			this.Equipo.BackColor = System.Drawing.SystemColors.Control;
 			this.Equipo.Location = new System.Drawing.Point(4, 22);
 			this.Equipo.Name = "Equipo";
 			this.Equipo.Padding = new System.Windows.Forms.Padding(3);
-			this.Equipo.Size = new System.Drawing.Size(738, 363);
+			this.Equipo.Size = new System.Drawing.Size(750, 387);
 			this.Equipo.TabIndex = 2;
 			this.Equipo.Text = "Equipo";
-			this.Equipo.UseVisualStyleBackColor = true;
 			// 
 			// Control
 			// 
+			this.Control.BackColor = System.Drawing.SystemColors.Control;
+			this.Control.Controls.Add(this.DGVControl_U);
+			this.Control.Controls.Add(this.btnSalida);
+			this.Control.Controls.Add(this.btnBuscar);
 			this.Control.Controls.Add(this.txtNombre);
 			this.Control.Controls.Add(this.txtEquipo);
 			this.Control.Controls.Add(this.txtDocumento);
 			this.Control.Controls.Add(this.txtIdEquipo);
 			this.Control.Controls.Add(this.label1);
-			this.Control.Controls.Add(this.button1);
+			this.Control.Controls.Add(this.btnIngreso);
 			this.Control.Location = new System.Drawing.Point(4, 22);
 			this.Control.Name = "Control";
 			this.Control.Padding = new System.Windows.Forms.Padding(3);
-			this.Control.Size = new System.Drawing.Size(738, 363);
+			this.Control.Size = new System.Drawing.Size(750, 387);
 			this.Control.TabIndex = 3;
 			this.Control.Text = "Control";
-			this.Control.UseVisualStyleBackColor = true;
 			// 
 			// txtNombre
 			// 
@@ -160,6 +176,91 @@ namespace ProyectoFormativo
 			this.label1.TabIndex = 1;
 			this.label1.Text = "label1";
 			// 
+			// btnBuscar
+			// 
+			this.btnBuscar.Location = new System.Drawing.Point(305, 56);
+			this.btnBuscar.Name = "btnBuscar";
+			this.btnBuscar.Size = new System.Drawing.Size(42, 29);
+			this.btnBuscar.TabIndex = 6;
+			this.btnBuscar.Text = "O";
+			this.btnBuscar.UseVisualStyleBackColor = true;
+			// 
+			// btnSalida
+			// 
+			this.btnSalida.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.btnSalida.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btnSalida.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+			this.btnSalida.FlatAppearance.BorderSize = 0;
+			this.btnSalida.ForeColor = System.Drawing.SystemColors.HighlightText;
+			this.btnSalida.Location = new System.Drawing.Point(560, 56);
+			this.btnSalida.Name = "btnSalida";
+			this.btnSalida.Size = new System.Drawing.Size(128, 73);
+			this.btnSalida.TabIndex = 7;
+			this.btnSalida.Text = "Salida";
+			this.btnSalida.UseVisualStyleBackColor = false;
+			// 
+			// DGVControl_U
+			// 
+			this.DGVControl_U.AllowUserToAddRows = false;
+			this.DGVControl_U.AllowUserToDeleteRows = false;
+			this.DGVControl_U.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+			this.DGVControl_U.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.DGVControl_U.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Codigo,
+            this.Nombre,
+            this.T_Bien,
+            this.F_registro,
+            this.H_Ingreso,
+            this.H_Salida,
+            this.Observaacion});
+			this.DGVControl_U.Location = new System.Drawing.Point(3, 135);
+			this.DGVControl_U.Name = "DGVControl_U";
+			this.DGVControl_U.ReadOnly = true;
+			this.DGVControl_U.Size = new System.Drawing.Size(745, 147);
+			this.DGVControl_U.TabIndex = 8;
+			// 
+			// Codigo
+			// 
+			this.Codigo.HeaderText = "Codigo";
+			this.Codigo.Name = "Codigo";
+			this.Codigo.ReadOnly = true;
+			// 
+			// Nombre
+			// 
+			this.Nombre.HeaderText = "Nombre";
+			this.Nombre.Name = "Nombre";
+			this.Nombre.ReadOnly = true;
+			// 
+			// T_Bien
+			// 
+			this.T_Bien.HeaderText = "T. Bien";
+			this.T_Bien.Name = "T_Bien";
+			this.T_Bien.ReadOnly = true;
+			// 
+			// F_registro
+			// 
+			this.F_registro.HeaderText = "F. Registro";
+			this.F_registro.Name = "F_registro";
+			this.F_registro.ReadOnly = true;
+			// 
+			// H_Ingreso
+			// 
+			this.H_Ingreso.HeaderText = "H. Ingreso";
+			this.H_Ingreso.Name = "H_Ingreso";
+			this.H_Ingreso.ReadOnly = true;
+			// 
+			// H_Salida
+			// 
+			this.H_Salida.HeaderText = "H. Salida";
+			this.H_Salida.Name = "H_Salida";
+			this.H_Salida.ReadOnly = true;
+			// 
+			// Observaacion
+			// 
+			this.Observaacion.HeaderText = "Observacion";
+			this.Observaacion.Name = "Observaacion";
+			this.Observaacion.ReadOnly = true;
+			// 
 			// FrmControlAdmin
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,13 +274,14 @@ namespace ProyectoFormativo
 			this.tc_Usuario.ResumeLayout(false);
 			this.Control.ResumeLayout(false);
 			this.Control.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.DGVControl_U)).EndInit();
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
 
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btnIngreso;
 		private System.Windows.Forms.TabControl tc_Usuario;
 		private System.Windows.Forms.TabPage Usuarios;
 		private System.Windows.Forms.TabPage Propietario;
@@ -190,6 +292,16 @@ namespace ProyectoFormativo
 		private System.Windows.Forms.TextBox txtDocumento;
 		private System.Windows.Forms.TextBox txtIdEquipo;
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Button btnSalida;
+		private System.Windows.Forms.Button btnBuscar;
+		private System.Windows.Forms.DataGridView DGVControl_U;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+		private System.Windows.Forms.DataGridViewTextBoxColumn T_Bien;
+		private System.Windows.Forms.DataGridViewTextBoxColumn F_registro;
+		private System.Windows.Forms.DataGridViewTextBoxColumn H_Ingreso;
+		private System.Windows.Forms.DataGridViewTextBoxColumn H_Salida;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Observaacion;
 	}
 }
 
