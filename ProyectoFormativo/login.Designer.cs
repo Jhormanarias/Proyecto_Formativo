@@ -91,6 +91,7 @@
 			this.BtnIngresar.TabIndex = 3;
 			this.BtnIngresar.Text = "Ingresar";
 			this.BtnIngresar.UseVisualStyleBackColor = false;
+			this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
 			// 
 			// txtUsusario
 			// 
