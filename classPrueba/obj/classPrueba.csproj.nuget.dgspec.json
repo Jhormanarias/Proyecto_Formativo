@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ProyectoFormativo\\classPrueba\\classPrueba.csproj": {}
+    "C:\\Users\\SENA\\Desktop\\Proyecto\\Proyecto_Formativo\\classPrueba\\classPrueba.csproj": {}
   },
   "projects": {
-    "F:\\ProyectoFormativo\\classPrueba\\classPrueba.csproj": {
+    "C:\\Users\\SENA\\Desktop\\Proyecto\\Proyecto_Formativo\\classPrueba\\classPrueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProyectoFormativo\\classPrueba\\classPrueba.csproj",
+        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\Proyecto\\Proyecto_Formativo\\classPrueba\\classPrueba.csproj",
         "projectName": "classPrueba",
-        "projectPath": "F:\\ProyectoFormativo\\classPrueba\\classPrueba.csproj",
+        "projectPath": "C:\\Users\\SENA\\Desktop\\Proyecto\\Proyecto_Formativo\\classPrueba\\classPrueba.csproj",
         "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
-        "outputPath": "F:\\ProyectoFormativo\\classPrueba\\obj\\",
+        "outputPath": "C:\\Users\\SENA\\Desktop\\Proyecto\\Proyecto_Formativo\\classPrueba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
