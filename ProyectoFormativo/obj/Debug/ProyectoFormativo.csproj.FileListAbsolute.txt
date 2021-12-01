@@ -44,3 +44,4 @@ F:\ProyectoFormativo\ProyectoFormativo\bin\Debug\es\Microsoft.VisualBasic.PowerP
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.FrmControlAdmin.resources
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.login.resources
 F:\ProyectoFormativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.csproj.CopyComplete
+C:\Users\SENA\Desktop\Proyecto\Proyecto_Formativo\ProyectoFormativo\obj\Debug\ProyectoFormativo.csprojAssemblyReference.cache
