@@ -363,7 +363,7 @@
 			this.lbl_hora.AutoSize = true;
 			this.lbl_hora.Font = new System.Drawing.Font("DS-Digital", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_hora.ForeColor = System.Drawing.Color.DarkRed;
-			this.lbl_hora.Location = new System.Drawing.Point(491, 13);
+			this.lbl_hora.Location = new System.Drawing.Point(503, 16);
 			this.lbl_hora.Name = "lbl_hora";
 			this.lbl_hora.Size = new System.Drawing.Size(186, 47);
 			this.lbl_hora.TabIndex = 1;
