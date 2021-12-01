@@ -8,5 +8,6 @@ namespace ProyectoFormativo
 {
 	class clasesFunciones
 	{
+
 	}
 }
